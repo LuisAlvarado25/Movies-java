@@ -1,4 +1,4 @@
-###Skill Challenge: Programación básica en Java
+### Skill Challenge: Programación básica en Java
 
 - Clona el proyecto desde https://github.com/LuisAlvarado25/Movies-java.git.
 - Asegúrate de tener Java 17 instalado en tu sistema. Puedes verificar tu versión de Java ejecutando java -version en la línea de comandos. 
