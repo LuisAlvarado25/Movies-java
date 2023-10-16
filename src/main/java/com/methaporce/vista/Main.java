@@ -20,15 +20,15 @@ public class Main {
         gestor.AgregarPelicula(pelicula2);
         gestor.AgregarPelicula(pelicula3);
         gestor.ObtenerPeliculas();
-        System.out.println(gestor.ObtenerPeliculas());
+        System.out.println("Todas las peliculas" + gestor.ObtenerPeliculas());
         // Eliminar una película
         gestor.EliminarPelicula(1);
-        System.out.println(gestor.ObtenerPeliculas());
-        System.out.println(gestor.ObtenerPeliculasDisponibles());
-        System.out.println(gestor.ObtenerPeliculasNoDisponibles());
+        System.out.println("Se elimino Pelicula 1"+ gestor.ObtenerPeliculas());
+        System.out.println("Peliculas Disponibles" + gestor.ObtenerPeliculasDisponibles());
+        System.out.println("Peliculas No Disponibles" + gestor.ObtenerPeliculasNoDisponibles());
         gestor.MarcarPeliculaComoDisponible(2);
-        System.out.println(gestor.ObtenerPeliculasNoDisponibles());
-        System.out.println(gestor.ObtenerPeliculasDisponibles());
+        System.out.println("Peliculas 2 ya disponible" + gestor.ObtenerPeliculasNoDisponibles());
+        System.out.println("Peliculas Disponibles" + gestor.ObtenerPeliculasDisponibles());
 
 
         }
